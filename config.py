@@ -57,6 +57,7 @@ ESPEAK_LIBRARY = ""
 # Fill in the model path here
 MODEL_LIST = [
     # VITS
+    [ABS_PATH + "/Model/g/G_latest.pth", ABS_PATH + "/Model/g/moegoe.json"],
     # [ABS_PATH + "/Model/Nene_Nanami_Rong_Tang/1374_epochs.pth", ABS_PATH + "/Model/Nene_Nanami_Rong_Tang/config.json"],
     # [ABS_PATH + "/Model/Zero_no_tsukaima/1158_epochs.pth", ABS_PATH + "/Model/Zero_no_tsukaima/config.json"],
     # [ABS_PATH + "/Model/g/G_953000.pth", ABS_PATH + "/Model/g/config.json"],
